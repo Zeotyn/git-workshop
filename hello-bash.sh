@@ -7,4 +7,8 @@ read  word
 echo "The word you entered is: $word"
 echo "Hi, are you happy? [y/n] \c"
 read happyness
-echo $happyness
+if [ $happyness == "y" ]; then
+	echo "Great you are happy"
+else 
+	echo "Stop lying!"
+fi 
