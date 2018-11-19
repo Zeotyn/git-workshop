@@ -11,4 +11,5 @@ if [ $happyness == "y" ]; then
 	echo "Great you are happy"
 else 
 	echo "Stop lying!"
-fi 
+fi
+echo "test"
